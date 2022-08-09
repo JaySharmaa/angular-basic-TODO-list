@@ -6,7 +6,8 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = '';
+  name = 'Angular';
+  placeholder = '';
 
   tasklist: any[] = [];
 
@@ -20,6 +21,6 @@ export class AppComponent {
   }
 
   handleClear() {
-    this.name = ' ';
+    this.placeholder = ' ';
   }
 }
